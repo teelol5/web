@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    background-color: #181414;
+    color: #fff;
+    padding: 5px;  
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+#head ul li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.3em;
+}
+
+#fr {
+    display: grid;
+    background-color: #101c24;
+    height: 965px;
+    grid-template-columns:minmax(0,400px) 1fr minmax(0,600px);
+}
+
+.bcw{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 0;
+    top: 75px;
+    z-index: 0;
+    border-bottom: 890px solid rgba(0, 0, 0, 0.349);
+    border-right:max(1500px) solid transparent;
+}
+
+.bbq {
+    position: relative;
+    grid-column: 1;
+}
+
+#itd {
+    display: inline-flex;
+    margin: auto 0px;
+    width: 600px;
+    font-size: 30px;
+    color: rgb(236, 232, 225);
+    grid-column: 2;
+    z-index: 1;
+}
+
+.im {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+}
+
+
+#info {
+    display: grid;
+    height: 980px;
+    background-color: #fff;
+    grid-template-columns:minmax(0,400px) 1fr minmax(0,600px);
+}
